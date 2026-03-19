@@ -1,0 +1,12 @@
+ body {
+    background-image: url("bg.jpg");/* Specify the image path */
+    background-repeat: no-repeat;               /* Prevent image from repeating */
+    background-size: cover;                    /* Scale image to cover the entire container */
+    background-attachment: fixed;              /* Fix the image position during scroll */
+    background-color: #1a0000;                 /* Fallback color if image fails to load */
+  }
+  .content{
+    background-color: rgba(39, 19, 1, 0.562); /* Black background with 50% opacity */
+    color: #ffffff; /* White text color to ensure readability */
+    padding: 20px; /* Add some space around the text */
+}
